@@ -14,10 +14,10 @@ const (
 )
 
 type Layout struct {
-	chatBox         *ui.Par //聊天窗口
-	msgInBox        *ui.Par //消息窗口
-	editBox         *ui.Par // 输入框
-	userNickListBox *ui.List
+	chatBox         ui.Par //聊天窗口
+	msgInBox        ui.Par //消息窗口
+	editBox         ui.Par // 输入框
+	userNickListBox ui.List
 	userNickList    []string
 	userIDList      []string
 	curUserIndex    int
